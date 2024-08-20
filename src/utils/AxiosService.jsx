@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosService = axios.create(
-    {baseURL:"http://localhost:9001",
+    {baseURL:"https://forgetpassword-be.onrender.com",
     headers:{
         "Content-Type":"application/json"
     }}
